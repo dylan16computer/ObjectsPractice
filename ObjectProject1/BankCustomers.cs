@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ObjectProject1
 {
-    public class BankCustomers
+    class BankCustomers
     {
         float accountNumber;
         float pin;
@@ -19,7 +19,7 @@ namespace ObjectProject1
         }
         public float Pin
         {
-            get => pin; set => accountNumber = value;
+            get => pin; set => pin = value;
         }
         public string FirstName
         {
@@ -27,7 +27,7 @@ namespace ObjectProject1
         }
         public string LastName
         {
-            get => lastName; set => firstName = value;
+            get => lastName; set => lastName = value;
         }
         public BankCustomers(float _AccountNumber, float _Pin, string _FirstName, string _LastName)
         {
